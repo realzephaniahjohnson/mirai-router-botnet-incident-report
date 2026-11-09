@@ -1,0 +1,13 @@
+# Full Cowrie session from 41.39.79.223 (session 3bf1fde88d77), 2026-11-09
+# Source: mothlight-honeypot-data. Commands are cut at 200 characters by the export.
+# Lines logged in the same second can appear slightly out of order.
+
+2026-11-09T15:38:25Z  login_success  user=root password=admin
+2026-11-09T15:38:25Z  command        enable
+2026-11-09T15:38:25Z  command        enable
+2026-11-09T15:38:25Z  command        system
+2026-11-09T15:38:25Z  command        system
+2026-11-09T15:38:26Z  command        shell
+2026-11-09T15:38:26Z  command        shell
+2026-11-09T15:38:26Z  command        sh
+2026-11-09T15:38:26Z  command        /bin/busybox V3G4

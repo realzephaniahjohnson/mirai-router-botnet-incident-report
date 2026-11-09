@@ -1,0 +1,14 @@
+type,indicator,context,first_seen_utc,last_seen_utc
+ipv4,167.250.28.185,Infected router (Porto Alegre BR; Blue3 Tecnologia); FiberHome default login; .b probe and .k kill script,2026-11-09T14:52:21Z,2026-11-09T14:52:29Z
+ipv4,41.39.79.223,Infected device (Cairo EG; TE Data AS8452); router CLI escapes; busybox V3G4 marker,2026-11-09T15:38:25Z,2026-11-09T15:38:26Z
+ipv4,31.171.66.62,Infected router (Baku AZ; BEEONLINE AS50959); same toolkit as 167.250.28.185 plus payload download attempt,2026-11-09T16:13:48Z,2026-11-09T16:14:59Z
+ipv4,45.90.163.37,Payload server (Paris FR; Sapinet SAS AS39421); on 6 blocklists,2026-11-09T16:13:51Z,
+url,hxxp://45.90.163.37/wget.sh,Loader fetched with busybox wget and piped to sh (defanged),2026-11-09T16:13:51Z,
+filename,tftp.sh,Loader fetched from 45.90.163.37 over TFTP if wget is missing,2026-11-09T16:13:51Z,
+filename,.b,Empty test file written to 11 directories to find one that is writable,,
+filename,.k,Kill script that force-kills any process running from a deleted file,,
+string,PBOC,Hostname the bot sets with `busybox hostname PBOC`,,
+string,PBOCHK,Marker echoed to confirm commands are running,,
+string,V3G4,Marker in `/bin/busybox V3G4` (name of a known Mirai variant),,
+credential,telecomadmin / nE7jA%5m,Hardcoded ISP credential for FiberHome HG6245D routers,,
+credential,root / Zxic521,Router-style root password (resembles ZTE's documented Zte521 default),,

